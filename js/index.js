@@ -122,21 +122,6 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
-const bg = document.getElementById('bg');
-const stickyPoint = 2300; // Точка приклеивания
-
-function checkSticky() {
-    const scrollY = window.scrollY;
-    
-    // Когда скролл достигает заданной точки, приклеиваем фон
-    if (scrollY >= stickyPoint) {
-        bg.classList.add('stuck');
-    } else {
-        bg.classList.remove('stuck');
-    }
-}
-
-window.addEventListener('scroll', checkSticky);
 
 
 

@@ -2,7 +2,7 @@
     .thank-you-message {
         width: 70%;
         height: auto;
-        color: #86c2ff;
+        color: var(--highlight-typography-color);
         margin: 0 auto;
         margin-top: 15%;
         font-size: 24px;
