@@ -22,15 +22,18 @@ function blackColor(navSelector = ".nav-list-item-link") {
     const navItems = document.querySelectorAll(navSelector);
     const number = document.querySelector('.header__number');
     const headbtn = document.querySelector('.feedbackButton');
+    const header = document.querySelector('.header');
     window.addEventListener("scroll", () => {
         const vh = window.innerHeight / 100;
         const scrollPositionVH = window.scrollY / vh;
         navItems.forEach(nav => {
             if (scrollPositionVH > vhThreshold) {
+                header.classList.add('morewhite')
                 headbtn.classList.add('scrolled-hbtn')
                 nav.classList.add('blackNavColor');
                 number.classList.add('blackNavColor');
             } else {
+                header.classList.remove('morewhite')
                 headbtn.classList.remove('scrolled-hbtn')
                 nav.classList.remove('blackNavColor');
                 number.classList.remove('blackNavColor');

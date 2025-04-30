@@ -138,7 +138,7 @@
             <div class="promo-section__wrapper">
                 <div class="pattern"></div>
                 <section class="promo__information">
-                    <div class="promo__medals">
+                    <!-- <div class="promo__medals">
                         <div class="first__medal">
                             <div class="medal__image">
                                 <img src="/assets/images/frist__medal.png" alt="Медаль Продокторов"
@@ -166,16 +166,16 @@
                             <div class="first__medal__name">Работаем с 2007 года!</div>
                             <div class="first__medal__namem">Работаем с 2007 года!</div>
                         </div>
-                    </div>
+                    </div> -->
                     <h1 class="shine-text">Лечим детские зубки без слез
                     </h1>
                     <div class="advantages__promo__text">
                         <ul class="advantages__list">
                             <li class="our__advantage">Индивидуальный подход к каждому
-                                    ребенку</li>
+                                ребенку</li>
                             <li class="our__advantage">Никакого страха боли и неприятных воспоминаний</li>
                             <li class="our__advantage">После приёма ребенок получает игрушку в
-                                    подарок</li>
+                                подарок</li>
                         </ul>
                     </div>
                     <button type="button" class="feedbackButton main__button" data-toggle="modal"
@@ -235,107 +235,93 @@
                 </div>
             </section>
 
-            <section class="services">
-                <h2 class="header-two">Какие услуги мы оказываем</h2>
-                <div class="services__grid">
-                    <div class="service-card" data-scroll-trigger="1000">
-                        <h3 class="service-card_header">Диагностика</h3>
-                        <div class="service-card_wrapper">
-                            <div class="service-card_items-wrapper">
-                                <div class="items-wrapper_item">
-                                    <p class="item-description">Рентген</p>
-                                </div>
-                                <div class="items-wrapper_item">
-                                    <p class="item-description">КТ-диагностика</p>
-                                </div>
-                            </div>
+            <section class="sidebar-services">
+                <div class="sidebar_wrapper">
+                    <div class="sidebar" id="sidebar">
+                        <div class="tab" data-tab="checking">Диагностика</div>
+                        <div class="tab" data-tab="milkteeth">Лечение молочных зубов</div>
+                        <div class="tab" data-tab="surgery">Хирургическая стоматология</div>
+                        <div class="tab" data-tab="orto">Ортодонтия</div>
+                        <div class="tab" data-tab="prevention">Профилактика</div>
+                        <div class="tab" data-tab="other">Другое</div>
+                    </div>
+                    <div class="main-content" id="mainContent">
+                        <div class="content-panel" data-content="checking">
                             <img src="assets/images/checking.png" alt="" class="orto-image">
-                        </div>
-                    </div>
-                    <div class="service-card" data-scroll-trigger="1000">
-                        <h3 class="service-card_header">Лечение молочных зубов</h3>
-                        <div class="service-card_wrapper">
-                            <div class="service-card_items-wrapper">
-                                <div class="items-wrapper_item">
-                                    <p class="item-description">Лечение кариеса</p>
-                                </div>
-                                <div class="items-wrapper_item">
-                                    <p class="item-description">Лечение пульпита</p>
-                                </div>
-                                <div class="items-wrapper_item">
-                                    <p class="item-description">Лечение периодонтита</p>
-                                </div>
-                                <div class="items-wrapper_item">
-                                    <p class="item-description">Лечение системой ICON</p>
-                                </div>
+                            <div class="items-wrapper_item">
+                                <p class="item-description">Рентген</p>
                             </div>
+                            <div class="items-wrapper_item">
+                                <p class="item-description">КТ-диагностика</p>
+                            </div>
+                        </div>
+
+                        <div class="content-panel" data-content="milkteeth">
                             <img src="assets/images/milk.png" alt="" class="orto-image">
-                        </div>
-                    </div>
-                    <div class="service-card" data-scroll-trigger="1300">
-                        <h3 class="service-card_header">Ортодонтия</h3>
-                        <div class="service-card_wrapper">
-                            <div class="service-card_items-wrapper">
-                                <div class="items-wrapper_item">
-                                    <p class="item-description">Исправление прикуса брекетами</p>
-                                </div>
-                                <div class="items-wrapper_item">
-                                    <p class="item-description">Каппы</p>
-                                </div>
-                                <div class="items-wrapper_item">
-                                    <p class="item-description">Элайнеры</p>
-                                </div>
-                                <div class="items-wrapper_item">
-                                    <p class="item-description">Исправление прикуса пластинками</p>
-                                </div>
+                            <div class="items-wrapper_item">
+                                <p class="item-description">Лечение кариеса</p>
                             </div>
-                            <img src="assets/images/orto.png" alt="" class="orto-image">
-                        </div>
-                    </div>
-                    <div class="service-card" data-scroll-trigger="1300">
-                        <h3 class="service-card_header" style="font-size: 3.3rem;">Хирургическая стоматология</h3>
-                        <div class="service-card_wrapper">
-                            <div class="service-card_items-wrapper">
-                                <div class="items-wrapper_item">
-                                    <p class="item-description">Пластика уздечки лазером</p>
-                                </div>
-                                <div class="items-wrapper_item">
-                                    <p class="item-description">Удаление молочных зубов</p>
-                                </div>
+                            <div class="items-wrapper_item">
+                                <p class="item-description">Лечение пульпита</p>
                             </div>
+                            <div class="items-wrapper_item">
+                                <p class="item-description">Лечение периодонтита</p>
+                            </div>
+                            <div class="items-wrapper_item">
+                                <p class="item-description">Лечение системой ICON</p>
+                            </div>
+                        </div>
+
+                        <div class="content-panel" data-content="surgery">
                             <img src="assets/images/surgery.png" alt="" class="orto-image">
-                        </div>
-                    </div>
-                    <div class="service-card" data-scroll-trigger="1600">
-                        <h3 class="service-card_header">Профилактика</h3>
-                        <div class="service-card_wrapper">
-                            <div class="service-card_items-wrapper">
-                                <div class="items-wrapper_item">
-                                    <p class="item-description">Гигиеническая чистка полости рта</p>
-                                </div>
-                                <div class="items-wrapper_item">
-                                    <p class="item-description">Герметизация фиссур</p>
-                                </div>
-                                <div class="items-wrapper_item">
-                                    <p class="item-description">Фторирование молочных зубов</p>
-                                </div>
+                            <div class="items-wrapper_item">
+                                <p class="item-description">Пластика уздечки лазером</p>
                             </div>
+                            <div class="items-wrapper_item">
+                                <p class="item-description">Удаление молочных зубов</p>
+                            </div>
+                        </div>
+
+                        <div class="content-panel" data-content="orto">
+                            <img src="assets/images/orto.png" alt="" class="orto-image">
+                            <div class="items-wrapper_item">
+                                <p class="item-description">Исправление прикуса брекетами</p>
+                            </div>
+                            <div class="items-wrapper_item">
+                                <p class="item-description">Каппы</p>
+                            </div>
+                            <div class="items-wrapper_item">
+                                <p class="item-description">Элайнеры</p>
+                            </div>
+                            <div class="items-wrapper_item">
+                                <p class="item-description">Исправление прикуса пластинками</p>
+                            </div>
+                        </div>
+
+                        <div class="content-panel" data-content="prevention">
                             <img src="assets/images/profilactic.png" alt="" class="orto-image">
-                        </div>
-                    </div>
-                    <div class="service-card" data-scroll-trigger="1600">
-                        <h3 class="service-card_header">Другое</h3>
-                        <div class="service-card_wrapper">
-                            <div class="service-card_items-wrapper">
-                                <div class="items-wrapper_item">
-                                    <p class="item-description">Скайсы</p>
-                                </div>
+
+                            <div class="items-wrapper_item">
+                                <p class="item-description">Гигиеническая чистка полости рта</p>
                             </div>
+                            <div class="items-wrapper_item">
+                                <p class="item-description">Герметизация фиссур</p>
+                            </div>
+                            <div class="items-wrapper_item">
+                                <p class="item-description">Фторирование молочных зубов</p>
+                            </div>
+                        </div>
+
+                        <div class="content-panel" data-content="other">
                             <img src="assets/images/skies.png" alt="" class="orto-image">
 
+                            <div class="items-wrapper_item">
+                                <p class="item-description">Скайсы</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                
             </section>
 
 
@@ -394,7 +380,8 @@
                         <div class="swiper-slide visit-swiper_slide4">
                             <div class="slide-content">
                                 <h3 class="slide_header">Приз за храбрость — из автомата с игрушками</h3>
-                                <p class="slide-content_descr">После приёма каждый смельчак получает небольшой подарок. Это не просто награда, а весёлый финал визита, который
+                                <p class="slide-content_descr">После приёма каждый смельчак получает небольшой подарок.
+                                    Это не просто награда, а весёлый финал визита, который
                                     делает поход к врачу по-настоящему радостным событием!</p>
                             </div>
                             <img src="assets/images/slide5.png" alt="" class="slide-content_img">
@@ -1231,7 +1218,7 @@
     <script src="js/header.js"></script>
     <script src="js/cards.js"></script>
     <script src="js/visit-swiper.js"></script>
-    <script src="js/grid.js"></script>
+    <script src="js/sidebar.js"></script>
     <script src="js/index.js"></script>
     <script type="text/javascript">
         // Функция ymaps.ready() будет вызвана, когда

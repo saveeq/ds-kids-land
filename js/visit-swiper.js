@@ -5,6 +5,13 @@ const visitSwiper = new Swiper('.visit-swiper', {
     slidesPerView: 'auto',
     centeredSlides: true,
     spaceBetween: 150,
+    speed: 500,
+
+    autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
 
     // If we need pagination
     pagination: {
