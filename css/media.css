@@ -1911,7 +1911,46 @@
         width: 95%;
     }
 
-    
+    .sidebar-services {
+        width: 100vw;
+        padding: 20px 10px;
+        height: auto;
+    }
+
+    .sidebar_wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .main-content {
+        width: 100%;
+        margin: 0;
+        height: 50vh;
+    }
+
+    .item-description {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin: 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .tab {
+        width: calc(50% - 10px);
+        font-size: 2.5rem;
+        padding: 15px 10px;
+        text-align: center;
+        vertical-align: middle;
+    }
 
 }
 
